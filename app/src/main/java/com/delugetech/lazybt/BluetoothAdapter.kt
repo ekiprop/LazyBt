@@ -35,6 +35,8 @@ class BluetoothAdapter internal constructor(
 
     override fun onBindViewHolder(holder: BluetoothViewHolder, position: Int) {
         val current = position
-        holder.btTitleView.text = current.
+        holder.btTitleView.text = current.toString()
+        holder.btDescView.text = current.toString()
+        holder.btPriority.text = current.toString()
     }
 }
